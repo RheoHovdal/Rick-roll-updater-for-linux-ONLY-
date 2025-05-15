@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=System Updater
+Comment=Critical system update tool
+Exec=gnome-terminal -- bash -c "~/SH/update.sh; exec bash"
+Icon=system-software-update
+Terminal=true
+Type=Application
+Categories=Utility;System;
+StartupNotify=true
